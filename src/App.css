@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.todo-form button {
+  background-color: #3d444b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-form button:hover {
+  background-color: #3d444f;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  gap: 15px;
+  background-color: #f2f2f3;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button,
+select {
+  background-color: #3d444b;
+  color: white;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+option {
+  background-color: #e0e0e0;
+  color: #555;
+}
+
+.task {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  touch-action: none;
+}
+.delete {
+  background: none;
+  border: none;
+  color: #ff0000;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: auto;
+}
